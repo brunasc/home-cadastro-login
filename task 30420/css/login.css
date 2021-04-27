@@ -1,0 +1,104 @@
+@import url('./home.css');
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.main .container-login {
+    width: 895px;
+    height: 609px;
+    background: #fff;
+    border-radius: 20px;
+    display: flex;
+}
+
+.container-login .content-image {
+    width:50%;
+    margin: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-image a {
+    color:#222;
+}
+
+.content-input {
+    position: relative;
+}
+
+.content-input img {
+    width: 12px;
+    position: absolute;
+    left: 0;
+    top: 12px;
+}
+
+input#email, 
+input#senha {
+    padding-left: 1.8rem;
+}
+
+.container-login .content-form {
+    width: 50%;
+    margin:75px;
+    
+}
+.content-form h1 {
+    margin:0;
+    margin-bottom: 2rem;
+}
+
+form label input {
+    border: none;
+    border-bottom: 1px solid #999999;
+    margin-bottom: 1rem;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.bt {
+    border:1px solid;
+    border-radius:4px;
+    display:flex;
+    cursor:pointer;
+    font-size:13px;
+    padding:15px 30px;
+    text-decoration:none;
+    margin-top: 4rem;
+}
+
+.btn-blue {
+    border-color:#6EA9E2;
+    background:#6EA9E2;
+    color:#fff;
+   
+}
+
+.content-checkbox {
+    margin-top: 1rem;
+}
+
+.redes-sociais {
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.6rem;
+    margin-top:  5.5rem;
+}
+
+.redes-sociais p {
+    margin:0px;
+}
+
+.redes-sociais img {
+    width: 1.5rem;
+}
+

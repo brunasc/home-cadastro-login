@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="./css/cadastro.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <title>Cadastro</title>
+</head>
+<body>
+    <main class=main>
+        <div class="container-cadastro">
+            <div class="content-form"> 
+                <h1>Cadastro</h1>
+    
+                <form action="login.html">
+                    <div class="content-input">
+                        <img src="./icons/user.png" alt="Usuário">
+                        <label for=""><input type="text" placeholder="Nome" id="nome"></label>
+                    </div>
+                    <div class="content-input">
+                        <img src="./icons/envelope.png" alt="Email">
+                        <label for=""><input type="email" placeholder="Email" id="email"></label> 
+                    </div>
+                    <div class="content-input"> 
+                        <img src="./icons/lockblack.png" alt="Senha">
+                        <label for=""><input type="password" placeholder="Senha" id="senha"></label>  
+                    </div>
+                    <div class="content-input">
+                        <img src="./icons/lock.png" alt="Senha">
+                        <label for=""><input type="password" placeholder="Repita sua senha" class="repeat-senha"></label>
+                    </div>
+                    
+                    <div class="content-checkbox">
+                        <input type="checkbox" name="termos" id="termos">
+                        <label for="termos">Eu concordo com os <a href="#"><i>Termos de Serviço</i></a></label>
+                    </div>
+                    
+                    
+                    
+                    <button class=" bt btn-blue" type="submit">Registrar</button>
+                </form>
+                
+            </div>
+
+            <div class="content-image">
+                <div class="image">
+                    <img src="./images/signup-image.jpg" alt="Home Office">
+                </div>
+                
+                <div class="link-login">
+                    <a href="./login.html" target="_blank">Já possuo Cadastro</a>
+                </div>
+               
+            </div>
+        </div>
+    </main>
+    
+</body>
+</html>
